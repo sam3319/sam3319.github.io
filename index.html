@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>이동현의 포트폴리오</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <div class="logo">
+                <a href="index.html">DongHyun's Portfolio</a>
+            </div>
+            
+            <!-- 햄버거 메뉴 버튼 -->
+            <div class="hamburger" id="hamburger">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+
+            <!-- 네비게이션 메뉴 -->
+            <ul class="nav-links" id="nav-links">
+                <li><a href="index.html" class="active">소개</a></li>
+                <li><a href="reports.html">레포트</a></li>
+                <li><a href="projects.html">프로젝트</a></li>
+                <li><a href="portfolio.html">포트폴리오</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section class="intro-section">
+            <div class="container">
+                <div class="intro-content">
+                    <h1>안녕하세요, 이동현입니다.</h1>
+                    <p class="intro-text">클라우드 엔지니어링과 웹 개발에 열정을 가진 개발자입니다.</p>
+                    <p class="intro-text">Docker, Kubernetes, CI/CD 파이프라인을 활용한 현대적인 개발 환경 구축에 관심이 많습니다.</p>
+                </div>
+                
+                <!-- 영상 섹션 -->
+                <div class="video-container">
+                    <div class="video-wrapper">
+                        <!-- 여기에 실제 영상 파일을 넣으시면 됩니다 -->
+                        <video controls poster="Test.png">
+                            <source src="Test.mp4" type="video/mp4">
+                        </video>
+                    </div>
+                </div>
+
+                <div class="intro-buttons">
+                    <a href="projects.html" class="btn">프로젝트 보기</a>
+                    <a href="portfolio.html" class="btn btn-outline">포트폴리오</a>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <div class="container">
+            <p>&copy; 2025 DongHyun Lee. All Rights Reserved.</p>
+        </div>
+    </footer>
+
+    <script src="js/script.js"></script>
+</body>
+</html>

@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="ko">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>프로젝트 - 이동현의 포트폴리오</title>
+        <link rel="stylesheet" href="css/style.css">
+    </head>
+    <body>
+        <header>
+            <nav>
+                <div class="logo">
+                    <a href="index.html">Minjun's Portfolio</a>
+                </div>
+
+                <!-- 햄버거 메뉴 버튼 -->
+                <div class="hamburger" id="hamburger">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </div>
+
+                <!-- 네비게이션 메뉴 (각 페이지의 active 클래스만 변경) -->
+                <ul class="nav-links" id="nav-links">
+                    <li><a href="index.html">소개</a></li>
+                    <li><a href="reports.html" class="active">레포트</a></li>
+                    <!-- reports.html에서 -->
+                    <li><a href="projects.html">프로젝트</a></li>
+                    <li><a href="portfolio.html">포트폴리오</a></li>
+                </ul>
+            </nav>
+        </header>
+
+        <main>
+            <section class="page-section">
+                <div class="container">
+                    <h1>프로젝트</h1>
+                    <a href="https://github.com/sam3319/JSP_Ditflix">
+                        <div class="projects-grid">
+                            <div class="project-card">
+                                <h3>OTT 스트리밍 플랫폼</h3>
+                                <p>JSP/Servlet과 MariaDB를 사용한 웹 애플리케이션</p>
+                                <div class="tech-stack">
+                                    <span>Java</span>
+                                    <span>JSP</span>
+                                    <span>MariaDB</span>
+                                </div>
+                            </div>
+                        </a>
+                        <a href="https://github.com/sam3319/ecs-cicd-demo">
+                            <div class="project-card">
+                                <h3>CI/CD 파이프라인</h3>
+                                <p>AWS CodeBuild와 ECS를 활용한 자동 배포 시스템</p>
+                                <div class="tech-stack">
+                                    <span>AWS</span>
+                                    <span>Docker</span>
+                                    <span>CodeBuild</span>
+                                </div>
+                            </div>
+                        </a>
+                    </div>
+                </div>
+            </section>
+        </main>
+
+        <footer>
+            <div class="container">
+                <p>&copy; 2025 DongHyun Lee. All Rights Reserved.</p>
+            </div>
+        </footer>
+    </body>
+</html>

@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="ko">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>레포트 - 이동현의 포트폴리오</title>
+        <link rel="stylesheet" href="css/style.css">
+    </head>
+    <body>
+        <header>
+            <nav>
+                <div class="logo">
+                    <a href="index.html">Minjun's Portfolio</a>
+                </div>
+
+                <!-- 햄버거 메뉴 버튼 -->
+                <div class="hamburger" id="hamburger">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </div>
+
+                <!-- 네비게이션 메뉴 (각 페이지의 active 클래스만 변경) -->
+                <ul class="nav-links" id="nav-links">
+                    <li><a href="index.html">소개</a></li>
+                    <li><a href="reports.html" class="active">레포트</a></li>
+                    <!-- reports.html에서 -->
+                    <li><a href="projects.html">프로젝트</a></li>
+                    <li><a href="portfolio.html">포트폴리오</a></li>
+                </ul>
+            </nav>
+        </header>
+
+        <main>
+            <section class="page-section">
+                <div class="container">
+                    <h1>레포트</h1>
+                    <div class="reports-grid">
+                        <div class="report-card">
+                            <h3>클라우드 컴퓨팅 연구</h3>
+                            <p>AWS와 Docker를 활용한 컨테이너 오케스트레이션에 대한 연구 보고서</p>
+                            <span class="date">2025.08</span>
+                        </div>
+                        <div class="report-card">
+                            <h3>Kubernetes 클러스터 구축</h3>
+                            <p>로컬 환경에서의 Kubernetes 멀티 노드 클러스터 구축 과정</p>
+                            <span class="date">2025.07</span>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </main>
+
+        <footer>
+            <div class="container">
+                <p>&copy; 2025 DongHyun Lee. All Rights Reserved.</p>
+            </div>
+        </footer>
+    </body>
+</html>
